@@ -4,9 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'zh-CN',
   title: "TeaOne",
-  description: "A VitePress Site",
+  description: "teaone",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    // https://vitepress.dev/reference/default-theme-config.
     logo: '/logo.png',
     nav: [
       { text: '主页', link: '/' },
