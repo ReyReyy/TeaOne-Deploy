@@ -1,12 +1,14 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-CN',
   title: "TeaOne",
+  head: [
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v=1' }]
+  ],
   description: "teaone",
+  cleanUrls: true,
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config.
     logo: '/logo.png',
     nav: [
       { text: '主页', link: '/' },
