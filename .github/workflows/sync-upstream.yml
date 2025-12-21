@@ -1,5 +1,5 @@
 name: Sync from upstream (fork only)
-# 用于被 Ciekant/TeaOne-Vitepress 触发，同步上游仓库的工作流
+# 用于被 Ciekan/TeaOne-Vitepress 触发，同步上游仓库的工作流
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ jobs:
 
       - name: Sync upstream
         run: |
-          git remote add upstream https://github.com/Ciekant/TeaOne-Vitepress.git
+          git remote add upstream https://github.com/Ciekan/TeaOne-Vitepress.git
           git fetch upstream
           git reset --hard upstream/master
           git push origin master --force
