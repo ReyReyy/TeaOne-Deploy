@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 
+const fileAndStyles = {}
+
 export default defineConfig({
   vite: {
     ssr: {
