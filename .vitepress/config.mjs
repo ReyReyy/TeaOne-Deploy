@@ -55,6 +55,7 @@ export default defineConfig({
             items: [
               { text: '2025.12.16', link:'/server/update/2025-12-16' },
               { text: '2025.12.20', link:'/server/update/2025-12-20' },
+              { text: '2025.01.03', link:'/server/update/2025-01-03' },
             ]
           },
         ]
